@@ -1,16 +1,77 @@
-# React + Vite
+# 🔐 Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Password Generator built using **React**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🔢 Adjustable password length (6–100 characters)
+* 🔣 Option to include numbers
+* 🎯 Option to include special characters
+* 📋 One-click copy to clipboard
+* ✅ Copy confirmation feedback
+* ⚡ Automatic password regeneration
+* 🎨 Clean and responsive UI
 
-## React Compiler
+## 🚀 Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* Tailwind CSS
+* JavaScript
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Add a screenshot here:
+
+```md
+![Password Generator](./Screenshot 2026-06-09 133130.png)
+```
+
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/Adarsh2059/React_JS/tree/main/06_Password_Generator
+
+npm install
+
+npm run dev
+```
+
+## 📖 Usage
+
+1. Select the password length using the slider.
+2. Enable numbers if required.
+3. Enable special characters if required.
+4. Copy the generated password with one click.
+
+## 🧠 React Concepts Used
+
+* useState
+* useEffect
+* useCallback
+* useRef
+
+## 📂 Project Structure
+
+```text
+src/
+├── assets/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## 🌟 Future Enhancements
+
+* Password strength indicator
+* Password history
+* Theme switcher
+* Custom character sets
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
