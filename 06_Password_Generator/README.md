@@ -21,7 +21,7 @@ A simple and responsive Password Generator built using **React**, **Vite**, and 
 
 ## 📸 Preview
 
-![Password Generator](./Screenshot 2026-06-09 133130.png)
+![Password Generator](./Screenshot.png)
 
 
 ## 🛠️ Installation
