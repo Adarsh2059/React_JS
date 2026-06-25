@@ -3,14 +3,20 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import AddTodo from './components/AddTodo'
+import Todos from './components/Todos'
+import { Provider } from 'react-redux'
+import { store } from './app/store'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
-    <>
-    <h1>Jai Shree Ganesh</h1>
-    </>
+    <Provider store={store}>
+      <h1>Jai Shree Ganesh</h1>
+      <AddTodo/>
+      <Todos/>
+    </Provider>
   )
 }
 
